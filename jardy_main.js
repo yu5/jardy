@@ -11,7 +11,7 @@ warn:function() {
 return {};
 }
 });
-}).call(this), function(t, e) {
+}).call(this), function(t, e) { 
 t.rails !== e && t.error("jquery-ujs has already been loaded!");
 var n;
 t.rails = n = {
@@ -5265,7 +5265,7 @@ var t, e, n, i;
 return window.top.location !== window.location && document.referrer && (i = document.referrer.match(/^https?:\/\/([^.]+\.)?([^:\/\s]+)\/?.*/), 
 i && (e = $B.meta("strikingly-host-name"), e && (n = $.map(e.split(","), function(t) {
 return t.trim();
-}), t = i[2], -1 === $.inArray(t.toLowerCase(), n)))) ? (alert("Framing is not allowed with free account. Redirecting to Strikingly.com. Please contact support@strikingly.com if you have any questions."), 
+}), t = i[2], -1 === $.inArray(t.toLowerCase(), n)))) ? (alert(""), 
 window.top.location = window.location) :void 0;
 }, e;
 }();
